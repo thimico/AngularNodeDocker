@@ -1,4 +1,4 @@
-FROM www.cybage-docker-registry.com:9080/jenkins_node_slave:1.2
+FROM www.cybage-docker-registry.com:9080/jenkins_node_slave:1.3
 
 RUN npm install gulp
 RUN npm install -g gulp
@@ -22,4 +22,4 @@ ADD node_modules node_modules
 ADD test test
 ADD selenium-server-standalone-2.47.1.jar server.js nightwatch.js package.json gulpfile.js ./
 
-EXPOSE 4545
+EXPOSE 45453
