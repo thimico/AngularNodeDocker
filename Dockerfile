@@ -22,6 +22,7 @@ ADD jshint-report jshint-report
 ADD models models
 ADD mocha-report mocha-report
 ADD routes routes
+ADD lib lib
 ADD reports reports
 ADD node_modules node_modules
 ADD test test
