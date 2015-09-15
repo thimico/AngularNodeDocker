@@ -16,18 +16,14 @@ WORKDIR /data/emsapp/
 # Define default command.
 CMD ["bash"]
 
-ADD coverage coverage
 ADD html html
-ADD jshint-report jshint-report
 ADD models models
-ADD mocha-report mocha-report
 ADD routes routes
 ADD lib lib
-ADD reports reports
 ADD node_modules node_modules
 ADD test test
 ADD gatling gatling
 ADD selenium-server-standalone-2.47.1.jar server.js nightwatch.js package.json gulpfile.js ./
 #ENV $HOME=/
 
-EXPOSE 4545
+EXPOSE 3003
