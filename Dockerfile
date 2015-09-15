@@ -21,7 +21,7 @@ ADD models models
 ADD routes routes
 ADD lib lib
 ADD node_modules node_modules
-ADD test test
+ADD examples examples
 ADD gatling gatling
 ADD selenium-server-standalone-2.47.1.jar server.js nightwatch.js package.json gulpfile.js ./
 #ENV $HOME=/
