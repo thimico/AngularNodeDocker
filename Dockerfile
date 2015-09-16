@@ -4,7 +4,7 @@ RUN npm install gulp
 RUN npm install -g gulp
 RUN npm install -g gulp-cli
 
-RUN apt-get update && apt-get install -y firefox
+
 
 RUN ln -s /usr/local/bin/gulp /usr/bin/gulp
 RUN ln -s /usr/local/bin/node /usr/bin/node
@@ -20,7 +20,7 @@ ADD html html
 ADD models models
 ADD routes routes
 ADD lib lib
-ADD node_modules node_modules
+
 ADD examples examples
 ADD gatling gatling
 ADD selenium-server-standalone-2.47.1.jar server.js nightwatch.js package.json gulpfile.js ./
