@@ -19,6 +19,7 @@ CMD ["bash"]
 ADD html html
 ADD models models
 ADD routes routes
+ADD node_modules node_modules
 ADD lib lib
 
 ADD examples examples
