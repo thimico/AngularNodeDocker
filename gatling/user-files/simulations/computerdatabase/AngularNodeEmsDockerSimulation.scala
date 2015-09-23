@@ -16,7 +16,7 @@ class AngularNodeEmsDockerSimulation extends Simulation {
 
   val headers_10 = Map("Content-Type" -> """application/x-www-form-urlencoded""") // Note the headers specific to a given request
 
-  val scn = scenario("Books Appliaction Testing") // A scenario is a chain of requests and pauses
+  val scn = scenario("Ems Application Testing") // A scenario is a chain of requests and pauses
     
 
 .exec(
