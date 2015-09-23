@@ -19,6 +19,7 @@
     "chai": "^2.1.2",
     "expect": "^1.6.0",
     "good-mocha-html-reporter": "^1.6.5",
+      "gulp-cli@0.3.0", 
     "gulp": "^3.9.0",
     "gulp-istanbul": "^0.10.0",
     "gulp-jshint": "^1.11.2",
