@@ -1,41 +1,38 @@
 {
-  "name": "POC",
-  "version": "0.0.0",
+  "name": "NodeJS_CI_CD",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.12.0",
-    "cookie-parser": "~1.3.4",
-    "debug": "~2.1.1",
     "express": "~4.12.2",
-    "mongoose": "^4.0.3",
-    "morgan": "~1.5.1",
-    "serve-favicon": "~2.2.0",
-    "stylus": "0.42.3"
+    "express-delay": "^0.1.0",
+    "gulp-jshint-html-reporter": "^0.1.3",
+    "mongoose": "^4.0.3"
   },
   "devDependencies": {
     "chai": "^2.1.2",
     "expect": "^1.6.0",
+<<<<<<< HEAD
+=======
     "good-mocha-html-reporter": "^1.6.5",
+    "gulp-cli":"^0.3.0", 
     "gulp": "^3.9.0",
+>>>>>>> 30abcaff5cf203e5ec79918c0a40b7864ef72945
     "gulp-istanbul": "^0.10.0",
+    "gulp-istanbul-report": "0.0.1",
     "gulp-jshint": "^1.11.2",
-    "gulp-jshint-html-reporter": "^0.1.3",
     "gulp-mocha": "^2.1.3",
+    "good-mocha-html-reporter": "latest",
     "gulp-nightwatch": "^0.2.4",
     "gulp-nodemon": "^2.0.4",
-    "istanbul": "^0.3.18",
-    "jshint": "^2.8.0",
+    "gulp-sonar": "^1.0.3",
     "jshint-html-reporter": "^0.2.4",
-    "mocha": "^2.2.1",
-    "mocha-lcov-reporter": "0.0.2",
-    "mongoose": "^4.1.3",
+    "mocha": "^2.2.5",
     "nightwatch": "^0.7.11",
-    "nodemon": "^1.4.1",
-    "should": "^7.0.4",
-    "superagent": "^1.1.0",
+    "should": "^5.2.0",
     "supertest": "^0.15.0"
   }
 }
