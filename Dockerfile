@@ -27,4 +27,4 @@ ADD gatling gatling
 ADD selenium-server-standalone-2.47.1.jar server.js nightwatch.js package.json gulpfile.js ./
 #ENV $HOME=/
 
-EXPOSE 3003
+EXPOSE 3033
