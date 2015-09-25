@@ -1,7 +1,7 @@
 module.exports = {
   'Test for EMS-APPLICATION' : function (client) {
     client
-      .url('http://172.27.59.185:3003/#/add')
+      .url('http://localhost:3033/#/add')
       .waitForElementVisible('body', 1000)
       .verify.title('Employee Application')
       .verify.visible('input')
@@ -14,7 +14,7 @@ module.exports = {
   },
   'List of Employees' : function(client,browser){
 	  client
-	  .url('http://172.27.59.185:3003/#/add')
+	  .url('http://localhost:3033/#/add')
 	  .waitForElementVisible('body', 1000)
 	  .verify.title('Employee Application')
 	.end();
