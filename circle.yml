@@ -10,6 +10,7 @@ dependencies:
     - node server.js
   
 test:
+  override:
     - gulp
     
     
