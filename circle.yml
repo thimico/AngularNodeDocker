@@ -5,6 +5,7 @@ machine:
 dependencies:
   pre:
     - npm install
+    - node server.js
   
   post:
     - gulp
