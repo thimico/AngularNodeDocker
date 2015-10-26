@@ -6,8 +6,8 @@ dependencies:
   pre:
     - npm install
   
-  post:
-    - node server.js
+ ## post:
+   # - node server.js
   
 test:
   override:
