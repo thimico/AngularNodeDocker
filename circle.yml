@@ -6,13 +6,13 @@ dependencies:
   pre:
     - npm install
     - npm install handlebars 
-    - npm install -g gulp-cli
+  #  - npm install -g gulp-cli
   
  ## post:
    # - node server.js
   
 test:
   override:
-    - gulp
+    - mocha
     
     
