@@ -5,6 +5,8 @@ machine:
 dependencies:
   pre:
     - npm install
+  
+  override:
     - node server.js
   
   post:
