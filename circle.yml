@@ -5,4 +5,8 @@ machine:
 dependencies:
   pre:
     - npm install
+  
+  post:
+    - gulp
+    
     
