@@ -5,6 +5,7 @@ machine:
 dependencies:
   pre:
     - npm install
+    - npm install handlebars 
   
  ## post:
    # - node server.js
